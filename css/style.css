@@ -1,0 +1,301 @@
+
+*{box-sizing: border-box;}
+
+body {
+    background-color: #6991d6;
+    margin: 0;
+}
+
+/* container */
+.container {
+    background-color: white;
+    position: relative;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px 20px 60px 20px;
+}
+
+/* borde superior */
+.superior {
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   border-bottom: 10px groove white;
+}
+
+.superior-1 {
+    position: absolute;
+    left: 25px;
+    width: 350px;
+    height: 30px;
+    border-left:  10px groove white;
+    border-right:  10px groove white;;
+   
+}
+/* Borde de pantalla */
+.borde-pantalla {
+    background-color: rgb(95,99,104,0.8);
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    width: 320px;
+    height: 250px;
+    border-radius: 20px 20px 60px 20px;
+    box-shadow: 2px 2px 2px 2px;
+
+}
+
+.text {
+    background-color: transparent;
+    position: absolute;
+    left: 140px;
+    top: 49px;
+    font-size: 10px;
+}
+ 
+.color-1 {
+    background-color: rgb(184, 24, 149,0.8);
+    position: relative;
+    left: 55px;
+    top: 60px;
+    width: 85px;
+    height: 3px;
+
+}
+
+.color-2 {
+    background-color: blue;
+    position: absolute;
+    left: 55px;
+    top: 65px;
+    width: 85px;
+    height: 3px;
+}
+
+.color-1-1 {
+    background-color: rgb(184, 24, 149,0.8);
+    position: relative;
+    left: 315px;
+    top: 58px;
+    width: 35px;
+    height: 3px;
+}
+
+.color-2-2 {
+    background-color: blue;
+    position: absolute;
+    left: 315px;
+    top: 66px;
+    width: 35px;
+    height: 3px;
+}
+
+/* bateria */
+
+.battery {
+    position: absolute;
+    left: 68px;
+    top: 165px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: red;;
+
+}
+
+.text-1 {
+    position: absolute;
+    left: 55px;
+    top: 180px;
+    font-size: 8px;
+}
+
+/* pantalla */
+.box {
+    position: absolute;
+    width: 220px;
+    height: 180px;
+    margin-top: 80px;
+    margin-left: 110px;
+    background-color:  rgba(236, 248, 63, 0.5);
+    box-shadow: -3px -3px;
+    
+}
+
+/* cruz */
+.cruz {
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 350px;
+    left: 50px;
+}
+
+.box1 {
+    background-color: rgb(95,99,104);
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top: 33px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.box2 {
+    background-color: rgb(95,99,104);
+    width: 35px;
+    height: 100px;
+    position: absolute;
+    left: 33px;
+   
+}
+
+.box3 {
+    background-color: rgb(36, 36, 37, 0.5);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+/* botones rosados */
+
+.botones {
+    background-color: rgb(230, 230, 230);
+    width: 60px;
+    height: 120px;
+    position: absolute;
+    left: 270px;
+    bottom: 140px;
+    border-radius: 50px;
+    transform: rotate(40deg);
+    
+}
+
+.bottom1 {
+    background-color: rgb(184, 24, 149,0.8);
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    bottom: 72px;
+    left: 5px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px 2px;
+   
+}
+
+ .bottom2 {
+    background-color: rgb(184, 24, 149,0.8);
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    margin-top:72px ;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px;
+
+} 
+
+/* botones grises */
+
+.boton-gris-1 {
+    background-color: rgb(230, 230, 230);
+    width: 25px;
+    height: 60px;
+    position: absolute;
+    left: 150px;
+    bottom: 35px;
+    border-radius: 10px;
+    transform: rotate(50deg); 
+    box-shadow: 1px 1px;
+}
+
+.bottom3 {
+    background-color: rgb(95,99,104,0.8);
+    width: 18px;
+    height: 51px;
+    position: absolute;
+    top:4px;
+    left: 3px;
+    border-radius: 10px; 
+}
+
+.boton-gris-2 {
+    background-color: rgb(230, 230, 230);
+    width: 25px;
+    height: 60px;
+    position: absolute;
+    left: 200px;
+    bottom: 40px;
+    border-radius: 10px;
+    transform: rotate(50deg);
+    box-shadow: 1px 1px;
+}
+
+.bottom4 {
+    background-color: rgb(95,99,104,0.8);
+    width: 18px;
+    height: 51px;
+    position: absolute;
+    top:4px;
+    left: 3px;
+    border-radius: 10px; 
+}
+
+/* salida de audio */
+
+.salida-audio {
+    background-color: transparent;
+    width: 90px;
+    height: 40px;
+    position: relative;
+   top: 70px;
+    left: 300px;
+    transform: rotate(-40deg);
+    
+    
+}
+
+.salida-1,
+.salida-2,
+.salida-3,
+.salida-4,
+.salida-5,
+.salida-6 {
+    background-color: rgb(230, 230, 230);
+    position: absolute;
+    width: 10px;
+    height: 50px;
+    left: 5px;
+    border-radius: 50px;
+    box-shadow: -3px -3px 6px;
+   
+}
+ .salida-2 {
+    left: 20px;
+}
+
+.salida-3 {
+    left: 35px;
+}
+
+.salida-4 {
+    left: 50px;
+}
+
+.salida-5 {
+    left: 65px;
+}
+
+.salida-6 {
+    left: 80px;
+}  
